@@ -1,4 +1,5 @@
 import type { ComponentProps, ReactNode } from "react";
+import Script from "next/script";
 import { cn } from "@/lib/cn";
 
 /**
@@ -173,14 +174,27 @@ export function Checkbox({ label, name, className, ...props }: { label: ReactNod
   );
 }
 
-/** Hidden "honeypot" field: real people never see or fill it; spam bots often do. */
+/**
+ * Spam protection for public forms.
+ *  - A hidden "honeypot" field: real people never see or fill it; spam bots often do.
+ *  - Optional Cloudflare Turnstile check, shown only if NEXT_PUBLIC_TURNSTILE_SITE_KEY is set.
+ */
 export function Honeypot() {
+  const turnstileKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
   return (
-    <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
-      <label>
-        Leave this empty
-        <input type="text" name="website" tabIndex={-1} autoComplete="off" />
-      </label>
-    </div>
+    <>
+      <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+        <label>
+          Leave this empty
+          <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+        </label>
+      </div>
+      {turnstileKey ? (
+        <>
+          <div className="cf-turnstile mb-4" data-sitekey={turnstileKey} data-size="flexible" />
+          <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" strategy="lazyOnload" />
+        </>
+      ) : null}
+    </>
   );
 }
