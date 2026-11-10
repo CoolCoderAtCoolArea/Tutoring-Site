@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "siteDescription": "Tutoría gratis para estudiantes de K–12 en Detroit, Michigan. Matemáticas, lectura, ciencias y ayuda con la tarea, en persona o en línea.",
+    "home": "Tutoría gratis para niños de Detroit",
+    "about": "Quiénes somos y nuestros tutores",
+    "subjects": "Materias y programas",
+    "availability": "Horarios disponibles",
+    "how": "Cómo funciona y preguntas",
+    "resources": "Recursos gratis para aprender",
+    "volunteer": "Sea tutor",
+    "contact": "Contáctenos",
+    "privacy": "Política de privacidad",
+    "safety": "Seguridad de los niños",
+    "accessibility": "Accesibilidad",
+    "donate": "Apóyenos",
+    "help": "Ayuda con la tarea"
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido principal",
+    "bookSession": "Reservar una sesión",
+    "free": "Gratis",
+    "loading": "Cargando…",
+    "sending": "Enviando…",
+    "saving": "Guardando…",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "optional": "opcional",
+    "required": "obligatorio",
+    "yes": "Sí",
+    "no": "No",
+    "close": "Cerrar",
+    "menu": "Menú",
+    "language": "Idioma",
+    "readableOn": "Lectura fácil: activada",
+    "readableOff": "Lectura fácil: desactivada",
+    "readableHint": "Letra más grande y más espacio entre letras",
+    "placeholder": "[PENDIENTE]",
+    "offline": "Parece que no tiene internet. Sus respuestas están guardadas en este aparato. Inténtelo de nuevo cuando vuelva la conexión.",
+    "draftRestored": "Recuperamos lo que escribió antes.",
+    "genericError": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "spamBlocked": "Por favor, espere un minuto y vuelva a intentarlo.",
+    "inPerson": "En persona",
+    "online": "En línea",
+    "both": "En persona o en línea",
+    "grade": "Grado",
+    "gradeK": "Kínder",
+    "gradeN": "Grado {grade}",
+    "subject": "Materia",
+    "allSubjects": "Todas las materias",
+    "allGrades": "Todos los grados",
+    "anyFormat": "En persona o en línea",
+    "anyTutor": "Cualquier tutor",
+    "minutes": "{count} minutos",
+    "detroitTime": "Los horarios son de Detroit."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Quiénes somos",
+    "subjects": "Materias",
+    "availability": "Horarios",
+    "how": "Cómo funciona",
+    "resources": "Recursos",
+    "volunteer": "Sea tutor",
+    "contact": "Contacto",
+    "login": "Entrar",
+    "dashboard": "Mi panel",
+    "privacy": "Privacidad",
+    "safety": "Seguridad infantil",
+    "accessibility": "Accesibilidad",
+    "donate": "Apóyenos",
+    "help": "Ayuda con la tarea",
+    "mainNav": "Principal",
+    "footerNav": "Más enlaces"
+  },
+  "subjects": {
+    "names": {
+      "math": "Matemáticas",
+      "reading": "Lectura",
+      "writing": "Escritura",
+      "science": "Ciencias",
+      "homework": "Ayuda con la tarea",
+      "testprep": "Preparación para exámenes"
+    },
+    "grades": {
+      "math": "K–12",
+      "reading": "K–12",
+      "writing": "3–12",
+      "science": "3–12",
+      "homework": "K–12",
+      "testprep": "6–12"
+    },
+    "blurbs": {
+      "math": "Contar, sumar, fracciones y hasta álgebra. Usamos ejemplos de la vida real y mucha práctica.",
+      "reading": "Leer palabras, leer más rápido y entender cuentos y artículos.",
+      "writing": "Oraciones, párrafos, ensayos y ortografía. Ayudamos a los niños a expresar sus ideas.",
+      "science": "Ideas prácticas sobre cómo funciona el mundo, y ayuda con la clase de ciencias.",
+      "homework": "¿Atorado con la tarea de hoy? Tráigala. Ayudamos a su hijo a hacerla, no la hacemos por él.",
+      "testprep": "Práctica para M-STEP, PSAT, SAT y exámenes de la escuela. Creamos habilidades y calmamos los nervios."
+    },
+    "sessionLooksLike": "Cómo es una sesión",
+    "sessionSteps": [
+      "Saludamos y hablamos de cómo va la escuela (5 minutos).",
+      "Trabajamos en lo que su hijo más necesita (40 minutos).",
+      "Hacemos un juego de repaso o una prueba corta (10 minutos).",
+      "Le escribimos una nota corta: qué hicimos y qué practicar (5 minutos)."
+    ],
+    "gradesLabel": "Grados {grades}"
+  },
+  "home": {
+    "eyebrow": "Tutoría gratis en Detroit",
+    "headline": "Tutoría gratis para que los niños de Detroit se sientan listos y fuertes",
+    "sub": "Matemáticas, lectura, ciencias y ayuda con la tarea para los grados K–12. En persona o en línea. Siempre gratis.",
+    "ctaSecondary": "Ver horarios",
+    "introCta": "¿Es nuevo? Pida una primera reunión gratis",
+    "atAGlance": "Materias y grados",
+    "howTitle": "Cómo funciona",
+    "steps": [
+      { "title": "Cree una cuenta gratis", "body": "Un padre, madre o tutor legal se registra y agrega a su hijo. Solo pedimos el primer nombre y el grado." },
+      { "title": "Escoja un horario", "body": "Elija una materia, un tutor y un horario que le funcione a su familia." },
+      { "title": "Aprender y crecer", "body": "Su hijo se reúne con su tutor. Después de cada sesión, usted recibe una nota corta sobre lo que aprendió." }
+    ],
+    "tutorsTitle": "Conozca a nuestros tutores",
+    "allTutors": "Ver todos los tutores",
+    "testimonialsTitle": "Lo que dicen las familias",
+    "faqTitle": "Preguntas comunes",
+    "allFaq": "Ver todas las preguntas",
+    "safetyTitle": "La seguridad de su hijo es lo primero",
+    "safetyBody": "Los padres lo ven todo. Los tutores nunca mandan mensajes privados a los niños. Pedimos muy poca información y usted puede borrarla cuando quiera.",
+    "safetyLink": "Cómo cuidamos a los niños"
+  },
+  "about": {
+    "title": "Quiénes somos",
+    "intro": "Somos estudiantes que aman aprender y aman Detroit. Empezamos esto para darle a cada niño de nuestra ciudad ayuda gratis y amable.",
+    "storyTitle": "Nuestra historia",
+    "story": [
+      "[PENDIENTE] Cuente su historia aquí en 3 o 4 oraciones cortas. ¿Por qué empezaron? ¿Qué les gusta de Detroit?",
+      "[PENDIENTE] ¿Qué esperan que los niños logren con su tutoría?"
+    ],
+    "whyTitle": "Por qué nos importa",
+    "why": [
+      "Todos los niños pueden aprender. Algunos solo necesitan más tiempo y alguien amable que les ayude.",
+      "La tutoría puede costar mucho. Creemos que debe ser gratis para las familias que la necesitan.",
+      "Crecimos aquí. Queremos ayudar a nuestros vecinos."
+    ],
+    "tutorsTitle": "Conozca a los tutores",
+    "subjectsLabel": "Materias",
+    "gradesLabel": "Grados",
+    "funFact": "Dato curioso",
+    "photoAlt": "Foto de {name}",
+    "noTutors": "Pronto habrá perfiles de tutores."
+  },
+  "availability": {
+    "title": "Horarios disponibles",
+    "intro": "Estos son los horarios libres de nuestros tutores esta semana y la próxima. Escoja uno para reservar.",
+    "filters": "Filtrar horarios",
+    "apply": "Mostrar horarios",
+    "none": "No hay horarios con esos filtros. Pruebe otra materia o grado, o vuelva pronto.",
+    "notSetup": "El horario aparecerá aquí cuando el sitio esté conectado a la base de datos.",
+    "book": "Reservar",
+    "bookTime": "Reservar {time} con {tutor}",
+    "with": "con {tutor}"
+  },
+  "how": {
+    "title": "Cómo funciona",
+    "intro": "Todo lo que necesita saber, en palabras sencillas.",
+    "faqTitle": "Preguntas y respuestas",
+    "faq": [
+      { "q": "¿Cuánto cuesta?", "a": "Nada. La tutoría es gratis. Nunca le pediremos una tarjeta de crédito." },
+      { "q": "¿Quién puede venir?", "a": "Cualquier estudiante de los grados K–12. No necesita vivir en un vecindario específico." },
+      { "q": "¿Qué debe traer mi hijo?", "a": "Su tarea, un lápiz y cualquier papel de la escuela que le cueste. Para sesiones en línea, lo mejor es un teléfono, tableta o computadora con cámara." },
+      { "q": "¿Cómo funcionan las sesiones en línea?", "a": "Después de reservar, el tutor agrega un enlace de video (Google Meet o Zoom) a su reserva. Abra su panel unos minutos antes y toque el enlace. Un adulto debe estar en casa y cerca." },
+      { "q": "¿Dónde son las sesiones en persona?", "a": "En un lugar público como una biblioteca. Nunca en una casa. La dirección aparece en su reserva." },
+      { "q": "¿Y si a mi hijo le cuesta mucho?", "a": "Está bien. Para eso estamos. Pida una primera reunión gratis. El tutor verá dónde está su hijo y hará un plan. Vamos al ritmo de su hijo." },
+      { "q": "Mi hijo tiene una diferencia de aprendizaje. ¿Pueden ayudar?", "a": "Sí. Díganos qué le funciona a su hijo en la nota de la reserva. Podemos ir más despacio, leer las preguntas en voz alta y tomar descansos. No somos maestros de educación especial, pero haremos nuestro mejor esfuerzo y le escucharemos." },
+      { "q": "¿Cómo cancelo?", "a": "Abra su panel y toque Cancelar en la sesión. Por favor cancele al menos 12 horas antes. Si llega tarde o falta, siempre puede reservar otra vez." },
+      { "q": "¿Cómo cuidan a los niños?", "a": "Los padres pueden verlo todo. Los tutores no pueden mandar mensajes privados a los niños. Las sesiones en persona son en lugares públicos. Lea nuestra página de Seguridad infantil." },
+      { "q": "¿Qué idioma hablan los tutores?", "a": "Nuestros tutores hablan inglés. [PENDIENTE: escriba otros idiomas que hablan sus tutores.] Este sitio está en inglés y español." }
+    ]
+  },
+  "resources": {
+    "title": "Recursos gratis para aprender",
+    "intro": "Sitios web gratis y buenos para aprender en casa.",
+    "visit": "Visitar {name}",
+    "external": "(abre otro sitio web)",
+    "byGrade": "Grados {grades}"
+  },
+  "volunteer": {
+    "title": "Sea tutor",
+    "intro": "¿Le gusta ayudar a los niños a aprender? Únase. Llene este formulario y le responderemos.",
+    "who": "Buscamos estudiantes de secundaria, universitarios y adultos pacientes, amables y puntuales.",
+    "name": "Su nombre",
+    "email": "Correo electrónico",
+    "subjects": "Materias que puede enseñar",
+    "grades": "Grados con los que se siente cómodo",
+    "gradesHint": "Por ejemplo: K–5, o 6–8",
+    "availability": "¿Cuándo está libre?",
+    "availabilityHint": "Por ejemplo: martes de 4 a 6 pm, sábados por la mañana",
+    "why": "¿Por qué quiere ser tutor?",
+    "ageCheck": "Tengo 16 años o más, o tengo permiso de mis padres para ser voluntario.",
+    "send": "Enviar solicitud",
+    "success": "¡Gracias! Recibimos su solicitud. Le escribiremos pronto.",
+    "error": "Por favor revise el formulario e inténtelo de nuevo."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "intro": "¿Preguntas? Mándenos un mensaje. Normalmente respondemos en 2 días.",
+    "emailUs": "O escríbanos a",
+    "name": "Su nombre",
+    "email": "Su correo electrónico",
+    "message": "Su mensaje",
+    "send": "Enviar mensaje",
+    "success": "¡Gracias! Recibimos su mensaje y le responderemos pronto.",
+    "where": "Dónde nos reunimos",
+    "mapTitle": "Mapa del lugar de tutoría"
+  },
+  "help": {
+    "title": "Ayuda con la tarea",
+    "intro": "¿Atorado en algo? Díganos qué es. Un tutor le escribirá al padre o tutor legal con ayuda o un horario para reunirse.",
+    "name": "Primer nombre del estudiante",
+    "email": "Correo del padre, madre o tutor legal",
+    "emailHint": "Respondemos a este correo. Niños: pidan ayuda a un adulto.",
+    "grade": "Grado",
+    "subject": "Materia",
+    "description": "¿En qué estás atorado?",
+    "descriptionHint": "Copia la pregunta o dinos qué parte no entiendes.",
+    "send": "Pedir ayuda",
+    "success": "¡Listo! Un tutor le escribirá pronto."
+  },
+  "donate": {
+    "title": "Apóyenos",
+    "intro": "Nuestra tutoría es gratis. Las donaciones nos ayudan a comprar libros, útiles y meriendas.",
+    "comingSoon": "Pronto se podrá donar en línea. Por ahora, escríbanos si quiere ayudar.",
+    "otherWays": "Otras formas de ayudar: sea tutor, cuéntele a un amigo o done libros."
+  },
+  "notFound": {
+    "title": "¡Uy! No encontramos esa página.",
+    "body": "Puede que la página se haya movido. Volvamos al camino.",
+    "home": "Ir a la página de inicio"
+  },
+  "footer": {
+    "tagline": "Tutoría gratis para estudiantes de K–12 en Detroit, Michigan.",
+    "rights": "© {year} {name}. Hecho con cariño en Detroit.",
+    "draftNote": "Nuestras páginas de privacidad y seguridad son borradores en revisión."
+  },
+  "announcement": { "label": "Aviso" },
+  "testimonials": {
+    "placeholderNote": "Estas son citas de ejemplo. Aquí irán citas reales de familias."
+  },
+  "legal": {
+    "draft": "BORRADOR — Un adulto de confianza o asesor legal debe revisar esta página antes de abrir el sitio. Los niños menores de 13 años están protegidos por una ley llamada COPPA.",
+    "updated": "Última actualización: {date}"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "intro": "Esta página explica, en palabras sencillas, qué información recogemos, por qué, quién puede verla y cómo borrarla.",
+    "sections": [
+      { "h": "Qué recogemos", "items": ["Padre, madre o tutor legal: nombre, correo electrónico y contraseña.", "Estudiante: primer nombre o apodo, grado y materias en las que necesita ayuda.", "Trabajo de aprendizaje: notas de sesión, tareas, respuestas de pruebas y fotos de tareas que su hijo suba.", "Tutor: nombre, correo, una biografía corta y foto (los tutores son adultos o voluntarios de secundaria)."] },
+      { "h": "Lo que NO recogemos", "items": ["No pedimos cumpleaños, direcciones, nombres de escuelas ni fotos de los estudiantes.", "No pedimos tarjetas de crédito. La tutoría es gratis.", "No usamos rastreadores de anuncios ni píxeles de Facebook. Nunca vendemos sus datos."] },
+      { "h": "Por qué lo recogemos", "items": ["Para programar sesiones y mandarle recordatorios.", "Para que los tutores sepan en qué necesita ayuda su hijo.", "Para que usted pueda ver el progreso de su hijo."] },
+      { "h": "Quién puede verlo", "items": ["Usted puede ver toda la información de su familia.", "El tutor de su hijo puede ver la información de su hijo. Otros tutores no.", "Nuestros administradores (los fundadores) pueden ver todo para que el programa funcione de forma segura.", "Usamos Supabase para guardar datos y Resend para enviar correos. Ellos la protegen y no la usan para nada más."] },
+      { "h": "Niños menores de 13 años", "items": ["Los niños menores de 13 años no pueden crear su propia cuenta. Un padre, madre o tutor legal debe crearla.", "Los padres pueden ver, cambiar, descargar o borrar la información de su hijo cuando quieran."] },
+      { "h": "Cómo descargar o borrar sus datos", "items": ["Entre, abra su panel y escoja \"Datos de mi familia\".", "Toque Descargar para obtener una copia. Toque Borrar para eliminar todo. Esto no se puede deshacer.", "O escríbanos y lo haremos por usted en 7 días."] },
+      { "h": "Cookies", "items": ["Solo usamos cookies para mantener su sesión abierta y recordar su idioma. No usamos cookies de rastreo."] },
+      { "h": "Preguntas", "items": ["Escríbanos cuando quiera. Nuestro correo está al final de cada página."] }
+    ]
+  },
+  "safety": {
+    "title": "Seguridad de los niños",
+    "intro": "Cuidar a los niños es lo más importante que hacemos. Así lo hacemos.",
+    "sections": [
+      { "h": "Los padres están a cargo", "items": ["Solo un padre, madre o tutor legal puede crear una cuenta y agregar a un niño.", "Los padres pueden ver todo lo que ve su hijo: sesiones, notas, tareas y resultados de pruebas."] },
+      { "h": "No hay mensajes privados", "items": ["Los tutores no pueden mandar mensajes privados a los estudiantes.", "Los tutores escriben notas de sesión que los padres siempre pueden leer, y escriben a los padres, no a los niños."] },
+      { "h": "Revisamos a los tutores", "items": ["Nuestro equipo debe aprobar a cada tutor antes de que pueda ver a cualquier estudiante.", "Los tutores solo pueden ver a los estudiantes con los que trabajan.", "[PENDIENTE] Describa las revisiones de antecedentes o capacitaciones de sus tutores."] },
+      { "h": "Lugares seguros", "items": ["Las sesiones en persona son en lugares públicos como bibliotecas, nunca en una casa.", "En las sesiones en línea, un adulto debe estar en casa y cerca.", "Los enlaces de video solo aparecen para la familia y el tutor de esa reserva."] },
+      { "h": "Muy poca información", "items": ["Solo pedimos el primer nombre o apodo, el grado y las materias del niño.", "No pedimos fotos, cumpleaños, direcciones ni nombres de escuelas de los estudiantes."] },
+      { "h": "Si algo no se siente bien", "items": ["Escríbanos de inmediato. Tomamos en serio cada preocupación.", "Si un niño está en peligro, llame al 911. Para reportar abuso en Michigan, llame al 855-444-3911 (Centralized Intake, 24/7)."] }
+    ]
+  },
+  "accessibility": {
+    "title": "Accesibilidad",
+    "intro": "Queremos que todas las personas puedan usar este sitio, incluidas las personas con discapacidades.",
+    "sections": [
+      { "h": "Lo que hacemos", "items": ["Seguimos las pautas WCAG 2.1 AA.", "Puede usar todo el sitio solo con el teclado.", "El sitio funciona con lectores de pantalla como VoiceOver y TalkBack.", "Toque el botón \"Lectura fácil\" arriba para tener letra más grande y más espacio.", "Las pruebas tienen un botón \"Leer en voz alta\".", "Los colores tienen buen contraste, y nunca usamos solo el color para mostrar algo."] },
+      { "h": "Funciona en teléfonos e internet lento", "items": ["El sitio está hecho primero para teléfonos y usa muy pocos datos.", "Si se cae el internet mientras llena un formulario, lo que escribió queda guardado en su teléfono."] },
+      { "h": "Avísenos de problemas", "items": ["Si algo es difícil de usar, escríbanos. Díganos en qué página y qué pasó. Lo arreglaremos."] }
+    ]
+  }
+}

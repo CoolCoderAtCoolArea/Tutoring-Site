@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "siteDescription": "Free tutoring for K–12 students in Detroit, Michigan. Math, reading, science, and homework help — in person or online.",
+    "home": "Free Tutoring for Detroit Kids",
+    "about": "About Us and Our Tutors",
+    "subjects": "Subjects and Programs",
+    "availability": "Open Times",
+    "how": "How It Works and FAQ",
+    "resources": "Free Learning Resources",
+    "volunteer": "Become a Tutor",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "safety": "Child Safety",
+    "accessibility": "Accessibility",
+    "donate": "Support Us",
+    "help": "Get Homework Help"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "bookSession": "Book a Session",
+    "free": "Free",
+    "loading": "Loading…",
+    "sending": "Sending…",
+    "saving": "Saving…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "optional": "optional",
+    "required": "required",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language",
+    "readableOn": "Easier reading: on",
+    "readableOff": "Easier reading: off",
+    "readableHint": "Bigger text and more space between letters",
+    "placeholder": "[PLACEHOLDER]",
+    "offline": "You seem to be offline. Your answers are saved on this device. Try again when you are back online.",
+    "draftRestored": "We brought back what you typed before.",
+    "genericError": "Something went wrong. Please try again.",
+    "spamBlocked": "Please wait a minute and try again.",
+    "inPerson": "In person",
+    "online": "Online",
+    "both": "In person or online",
+    "grade": "Grade",
+    "gradeK": "Kindergarten",
+    "gradeN": "Grade {grade}",
+    "subject": "Subject",
+    "allSubjects": "All subjects",
+    "allGrades": "All grades",
+    "anyFormat": "In person or online",
+    "anyTutor": "Any tutor",
+    "minutes": "{count} minutes",
+    "detroitTime": "Times are Detroit time."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "subjects": "Subjects",
+    "availability": "Open Times",
+    "how": "How It Works",
+    "resources": "Resources",
+    "volunteer": "Become a Tutor",
+    "contact": "Contact",
+    "login": "Log in",
+    "dashboard": "My Dashboard",
+    "privacy": "Privacy",
+    "safety": "Child Safety",
+    "accessibility": "Accessibility",
+    "donate": "Support Us",
+    "help": "Homework Help",
+    "mainNav": "Main",
+    "footerNav": "More links"
+  },
+  "subjects": {
+    "names": {
+      "math": "Math",
+      "reading": "Reading",
+      "writing": "Writing",
+      "science": "Science",
+      "homework": "Homework Help",
+      "testprep": "Test Prep"
+    },
+    "grades": {
+      "math": "K–12",
+      "reading": "K–12",
+      "writing": "3–12",
+      "science": "3–12",
+      "homework": "K–12",
+      "testprep": "6–12"
+    },
+    "blurbs": {
+      "math": "Counting, adding, fractions, and up to algebra. We use real-life examples and lots of practice.",
+      "reading": "Sounding out words, reading faster, and understanding stories and articles.",
+      "writing": "Sentences, paragraphs, essays, and spelling. We help kids share their ideas clearly.",
+      "science": "Hands-on ideas about how the world works, plus help with science class work.",
+      "homework": "Stuck on tonight's homework? Bring it. We help your child do it — not do it for them.",
+      "testprep": "Practice for M-STEP, PSAT, SAT, and class tests. We build skills and calm nerves."
+    },
+    "sessionLooksLike": "What a session looks like",
+    "sessionSteps": [
+      "We say hi and check in on how school is going (5 minutes).",
+      "We work on the skill or homework your child needs most (40 minutes).",
+      "We play a quick review game or quiz (10 minutes).",
+      "We write a short note for you: what we did and what to practice (5 minutes)."
+    ],
+    "gradesLabel": "Grades {grades}"
+  },
+  "home": {
+    "eyebrow": "Free tutoring in Detroit",
+    "headline": "Free tutoring that helps Detroit kids feel smart and strong",
+    "sub": "Math, reading, science, and homework help for grades K–12. In person or online. Always free.",
+    "ctaSecondary": "See open times",
+    "introCta": "New here? Ask for a free first meeting",
+    "atAGlance": "Subjects and grades",
+    "howTitle": "How it works",
+    "steps": [
+      { "title": "Make a free account", "body": "A parent or guardian signs up and adds their child. We only ask for a first name and grade." },
+      { "title": "Pick a time", "body": "Choose a subject, a tutor, and a time that works for your family." },
+      { "title": "Learn and grow", "body": "Your child meets their tutor. After each session, you get a short note about what they learned." }
+    ],
+    "tutorsTitle": "Meet our tutors",
+    "allTutors": "Meet all our tutors",
+    "testimonialsTitle": "What families say",
+    "faqTitle": "Common questions",
+    "allFaq": "See all questions",
+    "safetyTitle": "Your child's safety comes first",
+    "safetyBody": "Parents see everything. Tutors never message kids in private. We collect very little information and you can delete it any time.",
+    "safetyLink": "How we keep kids safe"
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "We are students who love learning and love Detroit. We started this to give every kid in our city free, friendly help.",
+    "storyTitle": "Our story",
+    "story": [
+      "[PLACEHOLDER] Tell your story here in 3–4 short sentences. Why did you start? What do you love about Detroit?",
+      "[PLACEHOLDER] What do you hope kids get from tutoring with you?"
+    ],
+    "whyTitle": "Why we care",
+    "why": [
+      "Every kid can learn. Some just need a little more time and a friendly helper.",
+      "Tutoring can cost a lot. We think it should be free for families who need it.",
+      "We grew up here. We want to give back to our neighbors."
+    ],
+    "tutorsTitle": "Meet the tutors",
+    "subjectsLabel": "Subjects",
+    "gradesLabel": "Grades",
+    "funFact": "Fun fact",
+    "photoAlt": "Photo of {name}",
+    "noTutors": "Tutor profiles are coming soon."
+  },
+  "availability": {
+    "title": "Open Times",
+    "intro": "Here are the times our tutors are free this week and next. Pick one to book a session.",
+    "filters": "Filter times",
+    "apply": "Show times",
+    "none": "No open times match. Try another subject or grade, or check back soon.",
+    "notSetup": "The schedule will show here once the site is connected to the database.",
+    "book": "Book",
+    "bookTime": "Book {time} with {tutor}",
+    "with": "with {tutor}"
+  },
+  "how": {
+    "title": "How It Works",
+    "intro": "Everything you need to know, in plain words.",
+    "faqTitle": "Questions and answers",
+    "faq": [
+      { "q": "How much does it cost?", "a": "Nothing. Tutoring is free. We will never ask for a credit card." },
+      { "q": "Who can come?", "a": "Any student in grades K–12. You do not need to live in a certain neighborhood." },
+      { "q": "What should my child bring?", "a": "Their homework, a pencil, and any school papers they are stuck on. For online sessions, a phone, tablet, or computer with a camera is best." },
+      { "q": "How do online sessions work?", "a": "After you book, the tutor adds a video link (Google Meet or Zoom) to your booking. Open your dashboard a few minutes early and tap the link. A parent should be home and nearby." },
+      { "q": "Where are in-person sessions?", "a": "At a public place like a library. Never at someone's home. The address is on your booking." },
+      { "q": "What if my child is really struggling?", "a": "That is okay. That is why we are here. Ask for a free first meeting. The tutor will see where your child is and make a plan. We go at your child's pace." },
+      { "q": "My child has a learning difference. Can you help?", "a": "Yes. Tell us what works for your child in the booking note. We can go slower, read questions out loud, and take breaks. We are not special education teachers, but we will do our best and listen to you." },
+      { "q": "How do I cancel?", "a": "Open your dashboard and tap Cancel on the session. Please cancel at least 12 hours before. Things happen — if you are late or miss one, you can always book again." },
+      { "q": "How do you keep kids safe?", "a": "Parents can see everything. Tutors cannot send private messages to kids. In-person sessions are in public places. Read our Child Safety page for more." },
+      { "q": "What language do tutors speak?", "a": "Our tutors speak English. [PLACEHOLDER: list other languages your tutors speak.] This website is in English and Spanish." }
+    ]
+  },
+  "resources": {
+    "title": "Free Learning Resources",
+    "intro": "Great free websites for learning at home. All are free to use.",
+    "visit": "Visit {name}",
+    "external": "(opens another website)",
+    "byGrade": "Grades {grades}"
+  },
+  "volunteer": {
+    "title": "Become a Tutor",
+    "intro": "Do you love helping kids learn? Join us. Fill out this form and we will get back to you.",
+    "who": "We are looking for high school students, college students, and adults who are patient, kind, and on time.",
+    "name": "Your name",
+    "email": "Email",
+    "subjects": "Subjects you can teach",
+    "grades": "Grades you are comfortable with",
+    "gradesHint": "For example: K–5, or 6–8",
+    "availability": "When are you free?",
+    "availabilityHint": "For example: Tuesdays 4–6pm, Saturday mornings",
+    "why": "Why do you want to tutor?",
+    "ageCheck": "I am 16 or older, or I have a parent's permission to volunteer.",
+    "send": "Send application",
+    "success": "Thank you! We got your application. We will email you soon.",
+    "error": "Please check the form and try again."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "Questions? Send us a message. We usually answer within 2 days.",
+    "emailUs": "Or email us at",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "send": "Send message",
+    "success": "Thanks! We got your message and will write back soon.",
+    "where": "Where we meet",
+    "mapTitle": "Map of our tutoring location"
+  },
+  "help": {
+    "title": "Get Homework Help",
+    "intro": "Stuck on something? Tell us what it is. A tutor will email the parent or guardian with help or a time to meet.",
+    "name": "First name of the student",
+    "email": "Parent or guardian email",
+    "emailHint": "We write back to this email. Kids: ask a grown-up to help.",
+    "grade": "Grade",
+    "subject": "Subject",
+    "description": "What are you stuck on?",
+    "descriptionHint": "Copy the question, or tell us what part is confusing.",
+    "send": "Send for help",
+    "success": "Got it! A tutor will email you soon."
+  },
+  "donate": {
+    "title": "Support Us",
+    "intro": "Our tutoring is free. Donations help us buy books, supplies, and snacks.",
+    "comingSoon": "Online giving is coming soon. For now, please email us if you would like to help.",
+    "otherWays": "Other ways to help: become a tutor, tell a friend, or donate books."
+  },
+  "notFound": {
+    "title": "Oops! We can't find that page.",
+    "body": "The page may have moved. Let's get you back on track.",
+    "home": "Go to the home page"
+  },
+  "footer": {
+    "tagline": "Free tutoring for K–12 students in Detroit, Michigan.",
+    "rights": "© {year} {name}. Made with care in Detroit.",
+    "draftNote": "Our privacy and safety pages are drafts and are being reviewed."
+  },
+  "announcement": { "label": "Announcement" },
+  "testimonials": {
+    "placeholderNote": "These are sample quotes. Real family quotes will go here."
+  },
+  "legal": {
+    "draft": "DRAFT — This page must be reviewed by a trusted adult or legal advisor before the site launches. Children under 13 are protected by a law called COPPA.",
+    "updated": "Last updated: {date}"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This page explains, in plain words, what information we collect, why, who can see it, and how to delete it.",
+    "sections": [
+      { "h": "What we collect", "items": ["Parent or guardian: name, email, and password.", "Student: first name or nickname, grade, and subjects they need help with.", "Learning work: session notes, assignments, quiz answers, and photos of homework your child uploads.", "Tutor: name, email, short bio, and photo (tutors are adults or high school volunteers)."] },
+      { "h": "What we do NOT collect", "items": ["No birthdays, home addresses, school names, or photos of students.", "No credit card numbers. Tutoring is free.", "No ad trackers or Facebook pixels. We do not sell your data. Ever."] },
+      { "h": "Why we collect it", "items": ["To schedule sessions and send you reminders.", "So tutors know what your child needs help with.", "So you can see your child's progress."] },
+      { "h": "Who can see it", "items": ["You can see all of your family's information.", "Your child's tutor can see your child's information. Other tutors cannot.", "Our admins (the founders) can see everything to keep the program running safely.", "We use Supabase to store data and Resend to send emails. They keep it secure and do not use it for anything else."] },
+      { "h": "Kids under 13", "items": ["Children under 13 cannot make their own account. A parent or guardian must create it.", "Parents can see, change, download, or delete their child's information at any time."] },
+      { "h": "How to download or delete your data", "items": ["Log in, open your dashboard, and choose \"My family's data\".", "Tap Download to get a copy. Tap Delete to erase everything. Deleting cannot be undone.", "Or email us and we will do it for you within 7 days."] },
+      { "h": "Cookies", "items": ["We only use cookies to keep you logged in and remember your language. No tracking cookies."] },
+      { "h": "Questions", "items": ["Email us any time. Our address is at the bottom of every page."] }
+    ]
+  },
+  "safety": {
+    "title": "Child Safety",
+    "intro": "Keeping kids safe is the most important thing we do. Here is how.",
+    "sections": [
+      { "h": "Parents are in charge", "items": ["Only a parent or guardian can create an account and add a child.", "Parents can see everything their child sees: sessions, notes, assignments, and quiz results."] },
+      { "h": "No private messages", "items": ["Tutors cannot send private messages to students.", "Tutors share session notes that parents can always read, and they email parents — not kids."] },
+      { "h": "Tutors are checked", "items": ["Every tutor must be approved by our team before they can see any student.", "Tutors can only see the students they work with.", "[PLACEHOLDER] Describe any background checks or training your tutors complete."] },
+      { "h": "Safe places", "items": ["In-person sessions happen in public places like libraries — never in a home.", "For online sessions, a parent or guardian should be home and nearby.", "Video links only appear for the booked family and tutor."] },
+      { "h": "Very little information", "items": ["We only ask for a child's first name or nickname, grade, and subjects.", "We do not collect student photos, birthdays, addresses, or school names."] },
+      { "h": "If something feels wrong", "items": ["Email us right away. We take every concern seriously.", "If a child is in danger, call 911. To report abuse in Michigan, call 855-444-3911 (Centralized Intake, 24/7)."] }
+    ]
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "intro": "We want everyone to be able to use this website, including people with disabilities.",
+    "sections": [
+      { "h": "What we do", "items": ["We follow the WCAG 2.1 AA guidelines.", "You can use the whole site with only a keyboard.", "The site works with screen readers like VoiceOver and TalkBack.", "Tap the \"Easier reading\" button at the top for bigger text and more spacing.", "Quizzes have a \"Read aloud\" button that reads questions out loud.", "Colors have strong contrast, and color is never the only way we show something."] },
+      { "h": "Works on phones and slow internet", "items": ["The site is built for phones first and uses very little data.", "If your internet drops while filling out a form, what you typed is saved on your phone."] },
+      { "h": "Tell us about problems", "items": ["If something is hard to use, please email us. Tell us what page and what happened. We will fix it."] }
+    ]
+  }
+}

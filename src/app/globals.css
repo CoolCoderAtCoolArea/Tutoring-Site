@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/*
+ * DESIGN TOKENS
+ * All colors were checked for WCAG AA contrast (4.5:1 for text) on the
+ * "paper" background. If you change a color, re-check it at
+ * https://webaim.org/resources/contrastchecker/
+ */
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Arabic",
+    "Noto Sans Bengali", Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+
+  --color-ink: #1c1917;        /* main text — 16.6:1 on paper */
+  --color-muted: #57534e;      /* secondary text — 7.2:1 on paper */
+  --color-paper: #fffaf2;      /* page background (warm cream) */
+  --color-card: #ffffff;
+  --color-line: #d6d3d1;       /* borders (decorative) */
+  --color-line-strong: #78716c;/* form borders — 4.6:1, meets 3:1 for UI */
+
+  --color-brand: #1d4ed8;      /* primary blue — white text 6.7:1 */
+  --color-brand-dark: #1e3a8a;
+  --color-brand-soft: #dbeafe;
+  --color-sun: #fcd34d;        /* sunny yellow — use with ink text only (11:1) */
+  --color-sun-soft: #fef3c7;
+  --color-coral: #c2410c;      /* warm accent — white text 5.2:1 */
+  --color-leaf: #15803d;       /* success — white text 5.0:1 */
+  --color-leaf-soft: #dcfce7;
+  --color-danger: #b91c1c;     /* errors — white text 6.5:1 */
+  --color-danger-soft: #fee2e2;
+}
+
+@layer base {
+/* Base size 18px. Everything sized in rem grows with it. */
+html {
+  font-size: 112.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* "Easier reading" mode (toggle in the header): bigger text and more spacing. */
+html[data-readable="true"] {
+  font-size: 128%;
+}
+html[data-readable="true"] body {
+  letter-spacing: 0.04em;
+  word-spacing: 0.12em;
+  line-height: 1.85;
+}
+html[data-readable="true"] p,
+html[data-readable="true"] li {
+  max-width: 60ch;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+/* Strong, visible keyboard focus on everything. */
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--color-sun);
+}
+
+a {
+  color: var(--color-brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+a:hover {
+  color: var(--color-brand-dark);
+}
+
+}
+
+/* Respect people who turn off animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Long-form text (privacy policy etc.) */
+.prose-simple h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.prose-simple p,
+.prose-simple ul {
+  margin-bottom: 1rem;
+}
+.prose-simple ul {
+  list-style: disc;
+  padding-inline-start: 1.5rem;
+}
+
+/* Print-friendly pages (assignments): hide site chrome, use black text. */
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+  a {
+    color: #000;
+  }
+  .print-break {
+    break-inside: avoid;
+  }
+}
