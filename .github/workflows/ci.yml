@@ -1,0 +1,41 @@
+# Runs on every push and pull request: type check, unit tests, database
+# security tests, and the public end-to-end + accessibility tests.
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HAS_SUPABASE: ${{ secrets.TEST_SUPABASE_URL != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Type check
+        run: npm run typecheck
+      - name: Translations complete
+        run: npm run check-translations
+      - name: Unit tests
+        run: npm test
+      - name: Database security tests (Row Level Security)
+        run: npm run test:db
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: End-to-end tests (public pages, accessibility, phones)
+        run: npx playwright test e2e/public.spec.ts --trace off
+      # The full user-flow tests (e2e/flows.spec.ts) run only if you add a TEST
+      # Supabase project's keys as repository secrets with these names.
+      - name: End-to-end user flows (needs Supabase test project secrets)
+        if: env.HAS_SUPABASE == 'true'
+        run: npx playwright test e2e/flows.spec.ts --trace off
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.TEST_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.TEST_SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.TEST_SUPABASE_SERVICE_ROLE_KEY }}

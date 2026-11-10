@@ -60,7 +60,7 @@ export async function linkTutorStudent(_: FormState, data: FormData): Promise<Fo
   await requireUser(["admin"]);
   const t = await getTranslations("admin");
   const supabase = await createClient();
-  const { error } = await supabase.from("tutor_students").upsert({ tutor_id: String(data.get("tutor_id")), student_id: String(data.get("student_id")) });
+  const { error } = await supabase.from("tutor_students").upsert({ tutor_id: String(data.get("tutor_id")), student_id: String(data.get("student_id")) }, { ignoreDuplicates: true }); // already linked = fine
   if (error) return { ok: false, message: t("saveFailed") };
   done();
   return { ok: true, message: t("saved") };

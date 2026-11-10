@@ -195,11 +195,11 @@ export async function assignQuiz(_: FormState, data: FormData): Promise<FormStat
 // ===================== STUDENT: taking quizzes =====================
 
 export async function startQuiz(data: FormData) {
-  await requireUser(["student", "parent"]);
+  const user = await requireUser(["student", "parent"]);
   const supabase = await createClient();
   const { data: attemptId, error } = await supabase.rpc("start_quiz_attempt", { p_quiz: String(data.get("quiz_id")), p_student: String(data.get("student_id")) });
   const locale = await getLocale();
-  if (error) redirect({ href: `/dashboard/student/quizzes?error=${errorKey(error.message)}`, locale });
+  if (error) redirect({ href: user.role === "student" ? `/dashboard/student/quizzes?error=${errorKey(error.message)}` : "/dashboard/parent", locale });
   redirect({ href: `/dashboard/quiz/${attemptId}`, locale });
 }
 

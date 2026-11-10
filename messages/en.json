@@ -605,7 +605,8 @@
     "typeDelete": "Type DELETE to confirm",
     "deleteEverything": "Delete my family's data",
     "deleteFailed": "We couldn't delete everything. Please email us and we will do it.",
-    "deleted": "Your family's data was deleted. Goodbye, and thank you!"
+    "deleted": "Your family's data was deleted. Goodbye, and thank you!",
+    "takeTogether": "Take it together"
   },
   "booking": {
     "title": "Book a session",

@@ -5,6 +5,7 @@ import { Card, EmptyState, Tag } from "@/components/ui/Layout";
 import { requireUser } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { loadOverview } from "@/lib/student-data";
+import { startQuiz } from "@/lib/actions/quiz";
 import { formatDateTime, formatShortDate } from "@/lib/time";
 import { formatLabel, gradeLabel } from "@/lib/labels";
 import type { Student } from "@/lib/types";
@@ -111,6 +112,14 @@ export default async function ParentHome({ params }: { params: Promise<{ locale:
                           <Link key={a.id} href={`/dashboard/results/${a.id}`} className="ms-2 inline-flex min-h-11 items-center">{t("seeResults")}</Link>
                         )).slice(0, 1)}
                       </p>
+                      {/* For young kids without their own login: take the quiz together on the parent's phone. */}
+                      {q.inProgress || q.best === null || q.allow_retries ? (
+                        <form action={startQuiz}>
+                          <input type="hidden" name="quiz_id" value={q.id} />
+                          <input type="hidden" name="student_id" value={o.student.id} />
+                          <button type="submit" className="inline-flex min-h-11 items-center font-semibold text-brand underline">{t("takeTogether")}</button>
+                        </form>
+                      ) : null}
                     </li>
                   ))}
                 </ul>

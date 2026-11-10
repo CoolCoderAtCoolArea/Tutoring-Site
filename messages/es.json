@@ -605,7 +605,8 @@
     "typeDelete": "Escriba DELETE para confirmar",
     "deleteEverything": "Borrar los datos de mi familia",
     "deleteFailed": "No pudimos borrar todo. Escríbanos y lo haremos.",
-    "deleted": "Los datos de su familia se borraron. ¡Adiós y gracias!"
+    "deleted": "Los datos de su familia se borraron. ¡Adiós y gracias!",
+    "takeTogether": "Hacerla juntos"
   },
   "booking": {
     "title": "Reservar una sesión",
