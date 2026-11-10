@@ -13,7 +13,13 @@
     "safety": "Seguridad de los niños",
     "accessibility": "Accesibilidad",
     "donate": "Apóyenos",
-    "help": "Ayuda con la tarea"
+    "help": "Ayuda con la tarea",
+    "login": "Entrar",
+    "signup": "Crear una cuenta",
+    "forgot": "Olvidé mi contraseña",
+    "reset": "Nueva contraseña",
+    "book": "Reservar una sesión",
+    "dashboard": "Mi panel"
   },
   "common": {
     "skipToContent": "Saltar al contenido principal",
@@ -120,9 +126,18 @@
     "atAGlance": "Materias y grados",
     "howTitle": "Cómo funciona",
     "steps": [
-      { "title": "Cree una cuenta gratis", "body": "Un padre, madre o tutor legal se registra y agrega a su hijo. Solo pedimos el primer nombre y el grado." },
-      { "title": "Escoja un horario", "body": "Elija una materia, un tutor y un horario que le funcione a su familia." },
-      { "title": "Aprender y crecer", "body": "Su hijo se reúne con su tutor. Después de cada sesión, usted recibe una nota corta sobre lo que aprendió." }
+      {
+        "title": "Cree una cuenta gratis",
+        "body": "Un padre, madre o tutor legal se registra y agrega a su hijo. Solo pedimos el primer nombre y el grado."
+      },
+      {
+        "title": "Escoja un horario",
+        "body": "Elija una materia, un tutor y un horario que le funcione a su familia."
+      },
+      {
+        "title": "Aprender y crecer",
+        "body": "Su hijo se reúne con su tutor. Después de cada sesión, usted recibe una nota corta sobre lo que aprendió."
+      }
     ],
     "tutorsTitle": "Conozca a nuestros tutores",
     "allTutors": "Ver todos los tutores",
@@ -170,16 +185,46 @@
     "intro": "Todo lo que necesita saber, en palabras sencillas.",
     "faqTitle": "Preguntas y respuestas",
     "faq": [
-      { "q": "¿Cuánto cuesta?", "a": "Nada. La tutoría es gratis. Nunca le pediremos una tarjeta de crédito." },
-      { "q": "¿Quién puede venir?", "a": "Cualquier estudiante de los grados K–12. No necesita vivir en un vecindario específico." },
-      { "q": "¿Qué debe traer mi hijo?", "a": "Su tarea, un lápiz y cualquier papel de la escuela que le cueste. Para sesiones en línea, lo mejor es un teléfono, tableta o computadora con cámara." },
-      { "q": "¿Cómo funcionan las sesiones en línea?", "a": "Después de reservar, el tutor agrega un enlace de video (Google Meet o Zoom) a su reserva. Abra su panel unos minutos antes y toque el enlace. Un adulto debe estar en casa y cerca." },
-      { "q": "¿Dónde son las sesiones en persona?", "a": "En un lugar público como una biblioteca. Nunca en una casa. La dirección aparece en su reserva." },
-      { "q": "¿Y si a mi hijo le cuesta mucho?", "a": "Está bien. Para eso estamos. Pida una primera reunión gratis. El tutor verá dónde está su hijo y hará un plan. Vamos al ritmo de su hijo." },
-      { "q": "Mi hijo tiene una diferencia de aprendizaje. ¿Pueden ayudar?", "a": "Sí. Díganos qué le funciona a su hijo en la nota de la reserva. Podemos ir más despacio, leer las preguntas en voz alta y tomar descansos. No somos maestros de educación especial, pero haremos nuestro mejor esfuerzo y le escucharemos." },
-      { "q": "¿Cómo cancelo?", "a": "Abra su panel y toque Cancelar en la sesión. Por favor cancele al menos 12 horas antes. Si llega tarde o falta, siempre puede reservar otra vez." },
-      { "q": "¿Cómo cuidan a los niños?", "a": "Los padres pueden verlo todo. Los tutores no pueden mandar mensajes privados a los niños. Las sesiones en persona son en lugares públicos. Lea nuestra página de Seguridad infantil." },
-      { "q": "¿Qué idioma hablan los tutores?", "a": "Nuestros tutores hablan inglés. [PENDIENTE: escriba otros idiomas que hablan sus tutores.] Este sitio está en inglés y español." }
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Nada. La tutoría es gratis. Nunca le pediremos una tarjeta de crédito."
+      },
+      {
+        "q": "¿Quién puede venir?",
+        "a": "Cualquier estudiante de los grados K–12. No necesita vivir en un vecindario específico."
+      },
+      {
+        "q": "¿Qué debe traer mi hijo?",
+        "a": "Su tarea, un lápiz y cualquier papel de la escuela que le cueste. Para sesiones en línea, lo mejor es un teléfono, tableta o computadora con cámara."
+      },
+      {
+        "q": "¿Cómo funcionan las sesiones en línea?",
+        "a": "Después de reservar, el tutor agrega un enlace de video (Google Meet o Zoom) a su reserva. Abra su panel unos minutos antes y toque el enlace. Un adulto debe estar en casa y cerca."
+      },
+      {
+        "q": "¿Dónde son las sesiones en persona?",
+        "a": "En un lugar público como una biblioteca. Nunca en una casa. La dirección aparece en su reserva."
+      },
+      {
+        "q": "¿Y si a mi hijo le cuesta mucho?",
+        "a": "Está bien. Para eso estamos. Pida una primera reunión gratis. El tutor verá dónde está su hijo y hará un plan. Vamos al ritmo de su hijo."
+      },
+      {
+        "q": "Mi hijo tiene una diferencia de aprendizaje. ¿Pueden ayudar?",
+        "a": "Sí. Díganos qué le funciona a su hijo en la nota de la reserva. Podemos ir más despacio, leer las preguntas en voz alta y tomar descansos. No somos maestros de educación especial, pero haremos nuestro mejor esfuerzo y le escucharemos."
+      },
+      {
+        "q": "¿Cómo cancelo?",
+        "a": "Abra su panel y toque Cancelar en la sesión. Por favor cancele al menos 12 horas antes. Si llega tarde o falta, siempre puede reservar otra vez."
+      },
+      {
+        "q": "¿Cómo cuidan a los niños?",
+        "a": "Los padres pueden verlo todo. Los tutores no pueden mandar mensajes privados a los niños. Las sesiones en persona son en lugares públicos. Lea nuestra página de Seguridad infantil."
+      },
+      {
+        "q": "¿Qué idioma hablan los tutores?",
+        "a": "Nuestros tutores hablan inglés. [PENDIENTE: escriba otros idiomas que hablan sus tutores.] Este sitio está en inglés y español."
+      }
     ]
   },
   "resources": {
@@ -247,7 +292,9 @@
     "rights": "© {year} {name}. Hecho con cariño en Detroit.",
     "draftNote": "Nuestras páginas de privacidad y seguridad son borradores en revisión."
   },
-  "announcement": { "label": "Aviso" },
+  "announcement": {
+    "label": "Aviso"
+  },
   "testimonials": {
     "placeholderNote": "Estas son citas de ejemplo. Aquí irán citas reales de familias."
   },
@@ -259,35 +306,482 @@
     "title": "Política de privacidad",
     "intro": "Esta página explica, en palabras sencillas, qué información recogemos, por qué, quién puede verla y cómo borrarla.",
     "sections": [
-      { "h": "Qué recogemos", "items": ["Padre, madre o tutor legal: nombre, correo electrónico y contraseña.", "Estudiante: primer nombre o apodo, grado y materias en las que necesita ayuda.", "Trabajo de aprendizaje: notas de sesión, tareas, respuestas de pruebas y fotos de tareas que su hijo suba.", "Tutor: nombre, correo, una biografía corta y foto (los tutores son adultos o voluntarios de secundaria)."] },
-      { "h": "Lo que NO recogemos", "items": ["No pedimos cumpleaños, direcciones, nombres de escuelas ni fotos de los estudiantes.", "No pedimos tarjetas de crédito. La tutoría es gratis.", "No usamos rastreadores de anuncios ni píxeles de Facebook. Nunca vendemos sus datos."] },
-      { "h": "Por qué lo recogemos", "items": ["Para programar sesiones y mandarle recordatorios.", "Para que los tutores sepan en qué necesita ayuda su hijo.", "Para que usted pueda ver el progreso de su hijo."] },
-      { "h": "Quién puede verlo", "items": ["Usted puede ver toda la información de su familia.", "El tutor de su hijo puede ver la información de su hijo. Otros tutores no.", "Nuestros administradores (los fundadores) pueden ver todo para que el programa funcione de forma segura.", "Usamos Supabase para guardar datos y Resend para enviar correos. Ellos la protegen y no la usan para nada más."] },
-      { "h": "Niños menores de 13 años", "items": ["Los niños menores de 13 años no pueden crear su propia cuenta. Un padre, madre o tutor legal debe crearla.", "Los padres pueden ver, cambiar, descargar o borrar la información de su hijo cuando quieran."] },
-      { "h": "Cómo descargar o borrar sus datos", "items": ["Entre, abra su panel y escoja \"Datos de mi familia\".", "Toque Descargar para obtener una copia. Toque Borrar para eliminar todo. Esto no se puede deshacer.", "O escríbanos y lo haremos por usted en 7 días."] },
-      { "h": "Cookies", "items": ["Solo usamos cookies para mantener su sesión abierta y recordar su idioma. No usamos cookies de rastreo."] },
-      { "h": "Preguntas", "items": ["Escríbanos cuando quiera. Nuestro correo está al final de cada página."] }
+      {
+        "h": "Qué recogemos",
+        "items": [
+          "Padre, madre o tutor legal: nombre, correo electrónico y contraseña.",
+          "Estudiante: primer nombre o apodo, grado y materias en las que necesita ayuda.",
+          "Trabajo de aprendizaje: notas de sesión, tareas, respuestas de pruebas y fotos de tareas que su hijo suba.",
+          "Tutor: nombre, correo, una biografía corta y foto (los tutores son adultos o voluntarios de secundaria)."
+        ]
+      },
+      {
+        "h": "Lo que NO recogemos",
+        "items": [
+          "No pedimos cumpleaños, direcciones, nombres de escuelas ni fotos de los estudiantes.",
+          "No pedimos tarjetas de crédito. La tutoría es gratis.",
+          "No usamos rastreadores de anuncios ni píxeles de Facebook. Nunca vendemos sus datos."
+        ]
+      },
+      {
+        "h": "Por qué lo recogemos",
+        "items": [
+          "Para programar sesiones y mandarle recordatorios.",
+          "Para que los tutores sepan en qué necesita ayuda su hijo.",
+          "Para que usted pueda ver el progreso de su hijo."
+        ]
+      },
+      {
+        "h": "Quién puede verlo",
+        "items": [
+          "Usted puede ver toda la información de su familia.",
+          "El tutor de su hijo puede ver la información de su hijo. Otros tutores no.",
+          "Nuestros administradores (los fundadores) pueden ver todo para que el programa funcione de forma segura.",
+          "Usamos Supabase para guardar datos y Resend para enviar correos. Ellos la protegen y no la usan para nada más."
+        ]
+      },
+      {
+        "h": "Niños menores de 13 años",
+        "items": [
+          "Los niños menores de 13 años no pueden crear su propia cuenta. Un padre, madre o tutor legal debe crearla.",
+          "Los padres pueden ver, cambiar, descargar o borrar la información de su hijo cuando quieran."
+        ]
+      },
+      {
+        "h": "Cómo descargar o borrar sus datos",
+        "items": [
+          "Entre, abra su panel y escoja \"Datos de mi familia\".",
+          "Toque Descargar para obtener una copia. Toque Borrar para eliminar todo. Esto no se puede deshacer.",
+          "O escríbanos y lo haremos por usted en 7 días."
+        ]
+      },
+      {
+        "h": "Cookies",
+        "items": [
+          "Solo usamos cookies para mantener su sesión abierta y recordar su idioma. No usamos cookies de rastreo."
+        ]
+      },
+      {
+        "h": "Preguntas",
+        "items": [
+          "Escríbanos cuando quiera. Nuestro correo está al final de cada página."
+        ]
+      }
     ]
   },
   "safety": {
     "title": "Seguridad de los niños",
     "intro": "Cuidar a los niños es lo más importante que hacemos. Así lo hacemos.",
     "sections": [
-      { "h": "Los padres están a cargo", "items": ["Solo un padre, madre o tutor legal puede crear una cuenta y agregar a un niño.", "Los padres pueden ver todo lo que ve su hijo: sesiones, notas, tareas y resultados de pruebas."] },
-      { "h": "No hay mensajes privados", "items": ["Los tutores no pueden mandar mensajes privados a los estudiantes.", "Los tutores escriben notas de sesión que los padres siempre pueden leer, y escriben a los padres, no a los niños."] },
-      { "h": "Revisamos a los tutores", "items": ["Nuestro equipo debe aprobar a cada tutor antes de que pueda ver a cualquier estudiante.", "Los tutores solo pueden ver a los estudiantes con los que trabajan.", "[PENDIENTE] Describa las revisiones de antecedentes o capacitaciones de sus tutores."] },
-      { "h": "Lugares seguros", "items": ["Las sesiones en persona son en lugares públicos como bibliotecas, nunca en una casa.", "En las sesiones en línea, un adulto debe estar en casa y cerca.", "Los enlaces de video solo aparecen para la familia y el tutor de esa reserva."] },
-      { "h": "Muy poca información", "items": ["Solo pedimos el primer nombre o apodo, el grado y las materias del niño.", "No pedimos fotos, cumpleaños, direcciones ni nombres de escuelas de los estudiantes."] },
-      { "h": "Si algo no se siente bien", "items": ["Escríbanos de inmediato. Tomamos en serio cada preocupación.", "Si un niño está en peligro, llame al 911. Para reportar abuso en Michigan, llame al 855-444-3911 (Centralized Intake, 24/7)."] }
+      {
+        "h": "Los padres están a cargo",
+        "items": [
+          "Solo un padre, madre o tutor legal puede crear una cuenta y agregar a un niño.",
+          "Los padres pueden ver todo lo que ve su hijo: sesiones, notas, tareas y resultados de pruebas."
+        ]
+      },
+      {
+        "h": "No hay mensajes privados",
+        "items": [
+          "Los tutores no pueden mandar mensajes privados a los estudiantes.",
+          "Los tutores escriben notas de sesión que los padres siempre pueden leer, y escriben a los padres, no a los niños."
+        ]
+      },
+      {
+        "h": "Revisamos a los tutores",
+        "items": [
+          "Nuestro equipo debe aprobar a cada tutor antes de que pueda ver a cualquier estudiante.",
+          "Los tutores solo pueden ver a los estudiantes con los que trabajan.",
+          "[PENDIENTE] Describa las revisiones de antecedentes o capacitaciones de sus tutores."
+        ]
+      },
+      {
+        "h": "Lugares seguros",
+        "items": [
+          "Las sesiones en persona son en lugares públicos como bibliotecas, nunca en una casa.",
+          "En las sesiones en línea, un adulto debe estar en casa y cerca.",
+          "Los enlaces de video solo aparecen para la familia y el tutor de esa reserva."
+        ]
+      },
+      {
+        "h": "Muy poca información",
+        "items": [
+          "Solo pedimos el primer nombre o apodo, el grado y las materias del niño.",
+          "No pedimos fotos, cumpleaños, direcciones ni nombres de escuelas de los estudiantes."
+        ]
+      },
+      {
+        "h": "Si algo no se siente bien",
+        "items": [
+          "Escríbanos de inmediato. Tomamos en serio cada preocupación.",
+          "Si un niño está en peligro, llame al 911. Para reportar abuso en Michigan, llame al 855-444-3911 (Centralized Intake, 24/7)."
+        ]
+      }
     ]
   },
   "accessibility": {
     "title": "Accesibilidad",
     "intro": "Queremos que todas las personas puedan usar este sitio, incluidas las personas con discapacidades.",
     "sections": [
-      { "h": "Lo que hacemos", "items": ["Seguimos las pautas WCAG 2.1 AA.", "Puede usar todo el sitio solo con el teclado.", "El sitio funciona con lectores de pantalla como VoiceOver y TalkBack.", "Toque el botón \"Lectura fácil\" arriba para tener letra más grande y más espacio.", "Las pruebas tienen un botón \"Leer en voz alta\".", "Los colores tienen buen contraste, y nunca usamos solo el color para mostrar algo."] },
-      { "h": "Funciona en teléfonos e internet lento", "items": ["El sitio está hecho primero para teléfonos y usa muy pocos datos.", "Si se cae el internet mientras llena un formulario, lo que escribió queda guardado en su teléfono."] },
-      { "h": "Avísenos de problemas", "items": ["Si algo es difícil de usar, escríbanos. Díganos en qué página y qué pasó. Lo arreglaremos."] }
+      {
+        "h": "Lo que hacemos",
+        "items": [
+          "Seguimos las pautas WCAG 2.1 AA.",
+          "Puede usar todo el sitio solo con el teclado.",
+          "El sitio funciona con lectores de pantalla como VoiceOver y TalkBack.",
+          "Toque el botón \"Lectura fácil\" arriba para tener letra más grande y más espacio.",
+          "Las pruebas tienen un botón \"Leer en voz alta\".",
+          "Los colores tienen buen contraste, y nunca usamos solo el color para mostrar algo."
+        ]
+      },
+      {
+        "h": "Funciona en teléfonos e internet lento",
+        "items": [
+          "El sitio está hecho primero para teléfonos y usa muy pocos datos.",
+          "Si se cae el internet mientras llena un formulario, lo que escribió queda guardado en su teléfono."
+        ]
+      },
+      {
+        "h": "Avísenos de problemas",
+        "items": [
+          "Si algo es difícil de usar, escríbanos. Díganos en qué página y qué pasó. Lo arreglaremos."
+        ]
+      }
     ]
+  },
+  "auth": {
+    "loginTitle": "Entrar",
+    "loginIntro": "¡Bienvenido otra vez! Escoja quién va a entrar.",
+    "tabFamily": "Padre, madre o tutor",
+    "tabStudent": "Estudiante",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "passwordHint": "Al menos 8 caracteres.",
+    "showPassword": "Mostrar contraseña",
+    "login": "Entrar",
+    "loggingIn": "Entrando…",
+    "noAccount": "¿Es nuevo?",
+    "createAccount": "Cree una cuenta gratis",
+    "forgot": "¿Olvidó su contraseña?",
+    "username": "Nombre de usuario",
+    "pin": "PIN",
+    "pinHint": "El número secreto que hizo tu papá, mamá o tutor.",
+    "studentHelp": "¿No tienes cuenta? Pídele a tu papá, mamá o tutor. Pueden hacerla en su panel.",
+    "signupTitle": "Cree una cuenta gratis",
+    "signupIntro": "Toma 1 minuto. Solo pedimos lo necesario.",
+    "iAm": "Soy…",
+    "roleParent": "Padre, madre o tutor legal",
+    "roleTutor": "Tutor o voluntario",
+    "tutorNote": "Nuestro equipo debe aprobar las cuentas de tutor antes de que puedan ver estudiantes.",
+    "name": "Su nombre",
+    "nameHint": "El primer nombre está bien.",
+    "agree": "Tengo 18 años o más (o soy tutor con permiso de mis padres) y acepto la Política de privacidad.",
+    "privacyLink": "Leer la Política de privacidad",
+    "signup": "Crear cuenta",
+    "signingUp": "Creando cuenta…",
+    "haveAccount": "¿Ya tiene cuenta?",
+    "checkEmail": "¡Casi listo! Le mandamos un correo. Toque el enlace para terminar. (Revise también la carpeta de spam.)",
+    "forgotTitle": "¿Olvidó su contraseña?",
+    "forgotIntro": "Escriba su correo. Le mandaremos un enlace para crear una contraseña nueva.",
+    "sendLink": "Enviar enlace",
+    "resetSent": "Si ese correo tiene cuenta, le mandamos un enlace. Revise su correo.",
+    "resetTitle": "Cree una contraseña nueva",
+    "newPassword": "Contraseña nueva",
+    "savePassword": "Guardar contraseña",
+    "passwordChanged": "Su contraseña cambió.",
+    "resetFailed": "Ese enlace no funcionó. Por favor pida uno nuevo.",
+    "badLogin": "El correo o la contraseña no son correctos. Inténtelo otra vez.",
+    "badStudentLogin": "El usuario o el PIN no son correctos. Pide ayuda a un adulto.",
+    "confirmFirst": "Primero confirme su correo. Busque nuestro enlace en su correo.",
+    "tooMany": "Demasiados intentos. Espere unos minutos.",
+    "notConfigured": "Las cuentas todavía no están activadas. (El dueño del sitio debe conectar Supabase; vea el README.)",
+    "passwordRule": "La contraseña debe tener al menos 8 caracteres.",
+    "emailRule": "Escriba un correo electrónico real.",
+    "agreeRule": "Marque la casilla para aceptar.",
+    "nameRule": "Escriba su nombre.",
+    "fixErrors": "Por favor corrija esto:",
+    "emailTaken": "Ese correo ya tiene una cuenta. Intente entrar.",
+    "signupFailed": "No pudimos crear la cuenta. Inténtelo otra vez.",
+    "linkError": "Ese enlace venció o ya se usó. Inténtelo otra vez.",
+    "logout": "Salir"
+  },
+  "dash": {
+    "title": "Mi panel",
+    "hello": "¡Hola, {name}!",
+    "nav": "Menú del panel",
+    "home": "Inicio",
+    "pendingTitle": "¡Gracias por registrarse!",
+    "pendingBody": "Su cuenta de tutor está esperando aprobación. Nuestro equipo la revisará pronto y le escribirá. No puede ver estudiantes hasta entonces.",
+    "pendingProfile": "Mientras espera, puede llenar su perfil de tutor.",
+    "notFound": "No encontramos eso.",
+    "saved": "¡Guardado!",
+    "error": "Algo salió mal. Inténtelo otra vez.",
+    "menu": {
+      "home": "Inicio",
+      "book": "Reservar",
+      "children": "Mis hijos",
+      "data": "Datos de mi familia",
+      "assignments": "Tareas",
+      "quizzes": "Pruebas",
+      "availability": "Mi horario",
+      "students": "Estudiantes",
+      "help": "Pedidos de ayuda",
+      "profile": "Mi perfil",
+      "users": "Usuarios",
+      "bookings": "Reservas",
+      "content": "Contenido del sitio",
+      "inbox": "Bandeja"
+    }
+  },
+  "book": {
+    "title": "Reservar una sesión",
+    "needAccount": "Para reservar, entre o cree una cuenta gratis. Solo toma un minuto.",
+    "whyAccount": "¿Por qué? Para que solo usted pueda ver las sesiones y notas de su hijo."
+  },
+  "parent": {
+    "homeTitle": "Panel de la familia",
+    "welcomeTitle": "¡Bienvenido! Empecemos.",
+    "welcomeBody": "Primero, agregue a su hijo. Solo necesitamos un primer nombre o apodo y su grado.",
+    "addChild": "Agregar un hijo",
+    "upcoming": "Próximas sesiones",
+    "noUpcoming": "Todavía no hay sesiones reservadas.",
+    "details": "Detalles",
+    "notes": "Notas de los tutores",
+    "noNotes": "Todavía no hay notas. Los tutores escriben una después de cada sesión.",
+    "assignments": "Tareas",
+    "noAssignments": "Todavía no hay tareas.",
+    "quizzes": "Pruebas",
+    "noQuizzes": "Todavía no hay pruebas.",
+    "assignmentStatus": {
+      "todo": "Por hacer",
+      "submitted": "Entregada",
+      "returned": "Necesita otro intento",
+      "complete": "Lista ✓"
+    },
+    "due": "Para el {date}",
+    "bestScore": "Mejor resultado: {score}%",
+    "quizStarted": "Empezada",
+    "quizNotStarted": "Sin empezar",
+    "seeResults": "Ver resultados",
+    "pastSessions": "Sesiones pasadas ({count})",
+    "childrenTitle": "Mis hijos",
+    "childrenIntro": "Agregue a cada hijo para el que quiera reservar sesiones.",
+    "privacyNote": "Solo pedimos el primer nombre o apodo, el grado y las materias. Por favor no agregue apellidos, cumpleaños ni nombres de escuelas.",
+    "noChildren": "Todavía no ha agregado hijos.",
+    "nickname": "Primer nombre o apodo",
+    "nicknameHint": "No hace falta el apellido.",
+    "needsHelpWith": "Necesita ayuda con",
+    "editChild": "Editar",
+    "childLogin": "Cuenta propia del niño",
+    "loginWhy": "Opcional. Dele a su hijo un usuario y un PIN para que vea sus tareas y haga pruebas solo. No necesita correo.",
+    "loginExists": "Su hijo entra con el usuario:",
+    "loginHowTo": "En la página de entrar, escoge \"Estudiante\" y escribe su usuario y PIN.",
+    "username": "Usuario",
+    "usernameRule": "De 3 a 24 letras, números o _ (sin espacios). No use su nombre completo.",
+    "pin": "PIN",
+    "newPin": "PIN nuevo",
+    "pinRule": "Al menos 6 números (o una contraseña de 8 o más caracteres).",
+    "createLogin": "Crear cuenta",
+    "changePin": "Cambiar PIN",
+    "removeLogin": "Quitar cuenta",
+    "confirmRemoveLogin": "¿Quitar esta cuenta? Su hijo no podrá entrar solo.",
+    "removeChild": "Quitar hijo",
+    "confirmRemoveChild": "¿Quitar a {name} y TODAS sus sesiones, notas y trabajos? No se puede deshacer.",
+    "childAdded": "¡Hijo agregado!",
+    "childInvalid": "Revise el nombre y el grado.",
+    "saved": "¡Guardado!",
+    "usernameTaken": "Ese usuario ya existe. Pruebe otro.",
+    "loginFailed": "No pudimos crear la cuenta. Inténtelo otra vez.",
+    "loginCreated": "¡Cuenta creada! Usuario: {username}",
+    "pinChanged": "PIN cambiado.",
+    "dataTitle": "Datos de mi familia",
+    "dataIntro": "Usted controla la información de su familia.",
+    "privacyLink": "Lea nuestra Política de privacidad",
+    "downloadTitle": "Descargar una copia",
+    "downloadBody": "Obtenga un archivo con todo lo que guardamos de su familia: hijos, sesiones, notas, tareas y respuestas de pruebas.",
+    "download": "Descargar mis datos",
+    "deleteTitle": "Borrar todo",
+    "deleteWarning": "Esto borra su cuenta, las cuentas de sus hijos, todas las sesiones, notas, trabajos subidos y resultados de pruebas. No se puede deshacer.",
+    "typeDelete": "Escriba DELETE para confirmar",
+    "deleteEverything": "Borrar los datos de mi familia",
+    "deleteFailed": "No pudimos borrar todo. Escríbanos y lo haremos.",
+    "deleted": "Los datos de su familia se borraron. ¡Adiós y gracias!"
+  },
+  "booking": {
+    "title": "Reservar una sesión",
+    "intro": "Las sesiones son gratis y duran más o menos una hora.",
+    "addChildFirst": "Primero agregue a su hijo. Luego podrá reservar.",
+    "addChildButton": "Agregar un hijo",
+    "step1": "Quién, qué y cómo",
+    "step2": "Escoja un horario",
+    "whichChild": "¿Cuál hijo?",
+    "tutor": "Tutor",
+    "format": "¿En persona o en línea?",
+    "showTimes": "Ver horarios libres",
+    "noTimes": "No hay horarios con esas opciones. Pruebe \"Cualquier tutor\", otra materia o el otro formato.",
+    "pickTime": "Horarios libres",
+    "note": "¿Algo que el tutor deba saber?",
+    "noteHint": "Por ejemplo: \"Le cuestan las fracciones\" o \"Lee mejor si le leen las preguntas en voz alta.\" Por favor no comparta datos médicos.",
+    "introCheck": "Es nuestra primera vez — queremos una primera reunión gratis para que el tutor vea cómo va mi hijo.",
+    "bookIt": "Reservar este horario",
+    "booking": "Reservando…",
+    "confirmedTitle": "¡Listo, está reservado! 🎉",
+    "confirmedBody": "Le mandamos un correo de confirmación. Puede agregar la sesión a su calendario abajo.",
+    "when": "Cuándo",
+    "status": "Estado",
+    "statuses": {
+      "booked": "Reservada",
+      "cancelled": "Cancelada",
+      "completed": "Terminada"
+    },
+    "introLabel": "Primera reunión gratis",
+    "noteLabel": "Su nota",
+    "reason": "Razón",
+    "joinVideo": "Entrar a la videollamada",
+    "linkComing": "El tutor pondrá aquí el enlace de video antes de la sesión.",
+    "linkReady": "Enlace de video listo",
+    "addToCalendar": "Agregar a mi calendario",
+    "sessionNote": "Nota del tutor",
+    "workedOn": "Qué trabajamos",
+    "practice": "Qué practicar",
+    "reschedule": "Cambiar el horario",
+    "pickNewTime": "Escoja un horario nuevo",
+    "rescheduleIt": "Cambiar a este horario",
+    "cancel": "Cancelar esta sesión",
+    "cancelIt": "Sí, cancelarla",
+    "cancelled": "La sesión fue cancelada.",
+    "tooLateToChange": "Faltan menos de {hours} horas para la sesión, así que no se puede cambiar en línea. Si no puede venir, escriba a {email}. Está bien — siempre puede reservar otra vez.",
+    "withTutor": "con {tutor}"
+  },
+  "tutor": {
+    "homeTitle": "Panel del tutor",
+    "toReview": "tareas por revisar",
+    "openHelp": "pedidos de ayuda abiertos",
+    "needNotes": "sesiones sin nota",
+    "noHoursYet": "Las familias no pueden reservar con usted hasta que ponga su horario semanal.",
+    "setHours": "Poner mi horario",
+    "today": "Hoy",
+    "thisWeek": "Próximos 7 días",
+    "nothingToday": "No hay sesiones hoy.",
+    "nothingThisWeek": "No hay más sesiones esta semana.",
+    "open": "Abrir",
+    "intro": "Primera reunión",
+    "needsLink": "falta enlace de video",
+    "availabilityTitle": "Mi horario",
+    "availabilityIntro": "Ponga las horas en que puede dar tutoría cada semana. Las familias reservan bloques de una hora dentro de ese horario.",
+    "weeklyHours": "Horario semanal",
+    "noHours": "Todavía no hay horario.",
+    "addHours": "Agregar horas",
+    "days": "Días",
+    "from": "Desde",
+    "to": "Hasta",
+    "sessionLength": "Duración de la sesión",
+    "formats": "En persona / en línea",
+    "daysOff": "Días libres",
+    "daysOffIntro": "Bloquee una fecha en la que no puede (no aparecerá como libre).",
+    "blockDate": "Bloquear esta fecha",
+    "date": "Fecha",
+    "reasonPrivate": "Razón (solo usted la ve)",
+    "blockSaved": "Fecha bloqueada.",
+    "confirmDelete": "¿Borrar esto?",
+    "availabilityInvalid": "Escoja al menos un día, una materia y un formato, y revise que la hora final sea después de la inicial.",
+    "saveFailed": "No se pudo guardar. Inténtelo otra vez.",
+    "saved": "¡Guardado!",
+    "familyNote": "Nota de la familia",
+    "meetingLink": "Enlace de video",
+    "meetingLinkLabel": "Enlace de Google Meet o Zoom",
+    "meetingLinkHint": "Solo esta familia y usted lo ven. Debe empezar con https://",
+    "linkRule": "El enlace debe empezar con https://",
+    "sessionNote": "Nota de la sesión",
+    "sessionNoteHint": "Los padres y el estudiante pueden leerla. Que sea corta, amable y concreta.",
+    "noteAfter": "Puede escribirla cuando empiece la sesión.",
+    "saveNote": "Guardar nota",
+    "noteSaved": "Nota guardada. La familia ya la puede ver.",
+    "noteRequired": "Escriba qué trabajaron.",
+    "cancelExplain": "La familia recibirá un correo con su razón.",
+    "cancelReason": "Razón (obligatoria — la familia la verá)",
+    "studentsTitle": "Mis estudiantes",
+    "studentsIntro": "Los estudiantes aparecen aquí cuando una familia reserva con usted.",
+    "noStudents": "Todavía no hay estudiantes.",
+    "sessions": "Sesiones",
+    "noSessions": "No hay sesiones.",
+    "profileTitle": "Mi perfil de tutor",
+    "profileIntro": "Esto es lo que ven las familias en la página \"Quiénes somos\".",
+    "publicName": "Nombre que ven las familias",
+    "publicNameHint": "Nombre y la inicial del apellido está muy bien (por ejemplo \"Maya R.\").",
+    "photo": "Foto",
+    "photoHint": "Una foto clara y amable de su cara. JPG o PNG, menos de 2 MB.",
+    "currentPhoto": "Foto actual",
+    "bio": "Biografía corta",
+    "bioHint": "2 o 3 oraciones: su escuela o grado, qué le gusta enseñar y por qué.",
+    "funFact": "Dato curioso",
+    "subjectsTeach": "Materias que enseña",
+    "gradeFrom": "Desde el grado",
+    "gradeTo": "Hasta el grado",
+    "languages": "Idiomas que habla",
+    "publish": "Mostrar mi perfil en el sitio público",
+    "profileInvalid": "Revise su nombre y los grados.",
+    "helpTitle": "Pedidos de ayuda con la tarea",
+    "helpIntro": "Preguntas del formulario público \"Ayuda con la tarea\". Responda al padre o madre por correo.",
+    "noHelp": "No hay pedidos abiertos. 🎉",
+    "helpStatus": {
+      "open": "Abierto",
+      "answered": "Respondido",
+      "closed": "Cerrado"
+    },
+    "replyByEmail": "Responder por correo",
+    "helpReplySubject": "Su pedido de ayuda con la tarea",
+    "markAnswered": "Marcar respondido",
+    "markClosed": "Cerrar"
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtelo otra vez.",
+    "pickTime": "Escoja un horario.",
+    "slot_taken": "Lo sentimos — alguien acaba de tomar ese horario. Escoja otro.",
+    "not_your_child": "No encontramos a ese niño en su cuenta.",
+    "too_late": "Falta muy poco para la sesión para cambiarla en línea. Escríbanos.",
+    "reason_required": "Escriba una razón.",
+    "not_found": "No encontramos eso.",
+    "not_allowed": "No tiene permiso para hacer eso.",
+    "not_assigned": "Esto no te fue asignado.",
+    "empty": "Escribe una respuesta o agrega una foto.",
+    "bad_file": "No se pudo usar ese archivo. Súbelo otra vez.",
+    "already_complete": "Tu tutor ya marcó esto como terminado.",
+    "no_retries": "Esta prueba solo se puede hacer una vez.",
+    "cannot_demote_self": "No puede quitarse su propio acceso de administrador.",
+    "bad_mode": "Escoja en persona o en línea."
+  },
+  "email": {
+    "whereOnline": "En línea — el enlace de video estará en su panel.",
+    "whereInPerson": "En persona en",
+    "confirmedSubject": "Reservado: tutoría el {when}",
+    "confirmedBody": "Hola {name}:\n\n¡Todo listo! {student} tiene una sesión de {subject} el {when} con {tutor}.\n\nDónde: {where}\n\nVea detalles, cancele o cambie el horario aquí:\n{link}\n\nAgréguela a su calendario (el archivo .ics también va adjunto):\n{calendar}\n\n¡Hasta pronto!",
+    "tutorNewSubject": "Nueva sesión reservada: {when}",
+    "tutorNewBody": "Se reservó una sesión nueva.\n\nEstudiante: {student}\nMateria: {subject}\nCuándo: {when}\n\nÁbrala aquí (agregue un enlace de video si es en línea):\n{link}",
+    "cancelledSubject": "Cancelada: tutoría el {when}",
+    "cancelledByTutorBody": "Hola {name}:\n\nLo sentimos — el tutor canceló la sesión de {subject} de {student} del {when}.\n\nRazón: {reason}\n\nPuede reservar otro horario aquí:\n{link}",
+    "cancelledByFamilyBody": "Hola {name}:\n\nLa familia canceló la sesión de {subject} de {student} del {when}.\n\nRazón: {reason}\n\nEse horario vuelve a estar libre en su calendario.",
+    "reminderSubject": "Recordatorio: tutoría mañana, {when}",
+    "reminderBody": "Hola {name}:\n\nLe recordamos que {student} tiene una sesión de {subject} el {when}.\n\nDónde: {where}\n\nDetalles:\n{link}"
+  },
+  "progress": {
+    "streak": "{count, plural, one {# semana seguida} other {# semanas seguidas}}",
+    "badges": {
+      "firstSession": "Primera sesión",
+      "firstQuiz": "Primera prueba",
+      "fiveQuizzes": "5 pruebas",
+      "perfectScore": "Puntaje perfecto",
+      "firstAssignment": "Primera tarea",
+      "tenAssignments": "10 tareas",
+      "threeWeekStreak": "3 semanas seguidas"
+    }
+  },
+  "upload": {
+    "uploading": "Subiendo…",
+    "remove": "Quitar",
+    "tooBig": "Ese archivo es muy grande (máximo 10 MB).",
+    "badType": "Escoge una foto (JPG, PNG) o un PDF.",
+    "failed": "No se pudo subir. Inténtalo otra vez.",
+    "takePhoto": "Toma una foto o escoge un archivo"
   }
 }

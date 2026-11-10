@@ -28,6 +28,7 @@ export function ActionForm({
   className,
   submitClassName,
   encType,
+  submitVariant,
 }: {
   action: (state: FormState, data: FormData) => Promise<FormState>;
   children: ReactNode;
@@ -41,6 +42,7 @@ export function ActionForm({
   className?: string;
   submitClassName?: string;
   encType?: string;
+  submitVariant?: "primary" | "danger" | "secondary" | "accent";
 }) {
   const [state, formAction] = useActionState(action, null);
   const formRef = useRef<HTMLFormElement>(null);
@@ -139,7 +141,7 @@ export function ActionForm({
         </Alert>
       ) : null}
       {children}
-      <SubmitButton size="lg" pendingText={pendingLabel} className={submitClassName ?? "w-full sm:w-auto"}>
+      <SubmitButton size="lg" variant={submitVariant} pendingText={pendingLabel} className={submitClassName ?? "w-full sm:w-auto"}>
         {submitLabel}
       </SubmitButton>
     </form>

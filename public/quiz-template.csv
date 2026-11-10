@@ -1,0 +1,8 @@
+type,prompt,choices,correct,hint,explanation,points,tolerance
+multiple_choice,What is 7 + 5?,11|12|13,12,Count up 5 from 7.,7 + 5 = 12.,1,
+multiple_select,Which numbers are even?,3|4|7|8,4|8,Even numbers end in 0 2 4 6 or 8.,4 and 8 can be split into two equal groups.,1,
+true_false,10 − 4 = 6,,true,,Ten take away four is six.,1,
+short_answer,What is the capital of Michigan?,,Lansing,It is not Detroit!,Lansing has been the capital since 1847.,1,
+numeric,Write $\frac{3}{4}$ as a decimal.,,0.75,Divide 3 by 4.,3 ÷ 4 = 0.75,1,0.001
+fill_blank,5 + ___ = 9,,4;four,What plus 5 makes 9?,9 − 5 = 4,1,
+matching,Match each animal to its sound.,cat=meow|dog=woof|cow=moo,,,,1,
