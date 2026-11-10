@@ -62,7 +62,8 @@ export default async function LocaleLayout({
         >
           {t("skipToContent")}
         </a>
-        <NextIntlClientProvider>
+        {/* Client components get their text as props, so no translations are shipped to the browser (saves data). */}
+        <NextIntlClientProvider messages={{}}>
           <AnnouncementBanner locale={locale} />
           <Header />
           <main id="main" tabIndex={-1} className="flex-1 outline-none">

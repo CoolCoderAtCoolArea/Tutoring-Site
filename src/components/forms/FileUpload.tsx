@@ -1,5 +1,5 @@
 "use client";
-import { useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { createBrowserSupabase } from "@/lib/supabase/client";
 
 type Uploaded = { path: string; name: string; url?: string };
@@ -25,6 +25,7 @@ export function FileUpload({
   capture = false,
   initial = [],
   labels,
+  onChange: onFilesChange,
 }: {
   bucket: string;
   folder: string;
@@ -37,12 +38,18 @@ export function FileUpload({
   publicUrl?: boolean;
   capture?: boolean;
   initial?: Uploaded[];
+  onChange?: (files: Uploaded[]) => void;
   labels: { uploading: string; remove: string; tooBig: string; badType: string; failed: string; takePhoto: string };
 }) {
   const id = useId();
   const [files, setFiles] = useState<Uploaded[]>(initial);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const first = useRef(true);
+  useEffect(() => {
+    if (first.current) { first.current = false; return; }
+    onFilesChange?.(files);
+  }, [files]); // eslint-disable-line react-hooks/exhaustive-deps
   const allowed = accept.split(",").map((s) => s.trim());
 
   function typeOk(f: File) {
